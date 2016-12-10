@@ -7,7 +7,7 @@ import {Router} from "@angular/router";
     templateUrl: 'home.html'
 })
 export class HomeComponent implements OnInit {
-    name: string = "bob";
+    name: string = "Josh";
 
     constructor(private router: Router) { }
 
@@ -17,8 +17,10 @@ export class HomeComponent implements OnInit {
 
     getNameFromHref(){
         let href: string = window.location.href;
-        let parts: string[] = href.split('/');
-        let name = parts[2].substr(0, parts[2].indexOf("is-correct.com") - 1);
-        this.name = name[0].toUpperCase() + name.slice(1);
+        if (href.indexOf("localhost") == -1) {
+            let parts: string[] = href.split('/');
+            let name = parts[2].substr(0, parts[2].indexOf("is-correct.com") - 1);
+            this.name = name[0].toUpperCase() + name.slice(1);
+        }
     }
 }
