@@ -29,3 +29,8 @@ h1 {
     padding: 0;
     margin: 0;
 }
+
+.sparkley {
+  transition: all 0.25s ease;
+}
+

@@ -15,12 +15,20 @@ export class HomeComponent implements OnInit {
         this.getNameFromHref();
     }
 
+    capitalize(str:string) {
+        return str[0].toUpperCase() + str.slice(1);
+    }
+
     getNameFromHref(){
-        let href: string = window.location.href;
+        //let href: string = window.location.href;
+        let href:string = "http://jonathan-romrell.is-correct.com";
         if (href.indexOf("localhost") == -1) {
             let parts: string[] = href.split('/');
             let name = parts[2].substr(0, parts[2].indexOf("is-correct.com") - 1);
-            this.name = name[0].toUpperCase() + name.slice(1);
+            let names = name.split("-");
+            this.name = "";
+            names.forEach(n => this.name += this.capitalize(n) + " ");
         }
     }
+
 }
