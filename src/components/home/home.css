@@ -12,12 +12,12 @@
 
 @font-face {
     font-family: Texture;
-    src: url(/assets/fonts/ten.ttf);
+    src: url(../../assets/fonts/ten.ttf);
 }
 
 @font-face {
     font-family: ncs;
-    src: url(/assets/fonts/ncs.ttf);
+    src: url(../../assets/fonts/ncs.ttf);
 }
 div {
     font-family: "ncs";
