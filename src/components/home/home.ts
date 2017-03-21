@@ -20,8 +20,7 @@ export class HomeComponent implements OnInit {
     }
 
     getNameFromHref(){
-        //let href: string = window.location.href;
-        let href:string = "http://jonathan-romrell.is-correct.com";
+        let href: string = window.location.href;
         if (href.indexOf("localhost") == -1) {
             let parts: string[] = href.split('/');
             let name = parts[2].substr(0, parts[2].indexOf("is-correct.com") - 1);
@@ -31,4 +30,3 @@ export class HomeComponent implements OnInit {
         }
     }
 
-}
