@@ -1,0 +1,17 @@
+<img class="abs-center" src="../../assets/images/cert-border.png" style="width: 100%; top: 2vw;">
+<div class="abs-center" style="width: 75%; top:10vw;">
+    <div class="row">
+        <h1 class="text-center"><span style="font-size: 140%">C</span>ertificate Of <span style="font-size: 140%">V</span>eracity</h1>
+        <div class="text-center" style="font-size: 2vw;">
+            <div>This site certifies the presently articulated elucidations of </div>
+            <div style="font-size: 6vw; font-family: 'Texture'">{{name}} </div>
+            <div> as true. Furthermore, the aforementioned remarks should be regarded </div>
+            <div>as a dependable foundation for increasing one's intelligence.</div>
+        </div>
+    </div>
+</div>
+<footer class="footer" style="position: absolute; bottom: 0px; height:20px; width: 100%;">
+   <a class="pull-right" href="http://paypal.me/jcjolley/1">
+       <img src="../../assets/images/qr.jpg"/>
+   </a>
+</footer>
