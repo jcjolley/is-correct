@@ -29,4 +29,4 @@ export class HomeComponent implements OnInit {
             names.forEach(n => this.name += this.capitalize(n) + " ");
         }
     }
-
+}
