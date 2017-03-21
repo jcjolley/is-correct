@@ -3,3 +3,29 @@
      background: rebeccapurple;
      color: white;
  }
+
+.abs-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@font-face {
+    font-family: Texture;
+    src: url(/assets/fonts/ten.ttf);
+}
+
+@font-face {
+    font-family: ncs;
+    src: url(/assets/fonts/ncs.ttf);
+}
+div {
+    font-family: "ncs";
+}
+
+h1 {
+    font-family: "Texture";
+    font-size: 8vw;
+    padding: 0;
+    margin: 0;
+}
