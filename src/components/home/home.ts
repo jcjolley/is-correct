@@ -8,6 +8,7 @@ import {Router} from "@angular/router";
 })
 export class HomeComponent implements OnInit {
     name: string = "Josh";
+    showHelp: boolean = false;
 
     constructor(private router: Router) { }
 
